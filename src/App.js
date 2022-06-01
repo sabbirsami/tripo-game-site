@@ -1,10 +1,11 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import HeaderNavbar from "./Components/Shared/HeaderNavbar";
 import "./style.css";
 
 function App() {
     return (
         <div>
-            <button className="btn alert-success text-success">Success</button>
+            <HeaderNavbar></HeaderNavbar>
         </div>
     );
 }
