@@ -9,7 +9,7 @@ const HeroAbout = () => {
                     <div className="text-center">
                         <h5>About Tripo</h5>
                         <div className="col-lg-4 mx-auto">
-                            <h1 className="py-3">
+                            <h1 className="py-3 fontStyle">
                                 Your Source for Mobile Entertainment
                             </h1>
                         </div>
@@ -27,7 +27,7 @@ const HeroAbout = () => {
                             Learn More
                         </button>
                     </div>
-                    <div className="col-lg-12 d-lg-block d-none">
+                    <div className="col-lg-12 d-lg-block d-none pb-5">
                         <div className="hero-about-img pt-4 mx-auto col-lg-7 position-relative">
                             <div className=" text-center py-5">
                                 <img
