@@ -6,7 +6,7 @@ import "./style.css";
 
 function App() {
     return (
-        <div>
+        <div style={{ backgroundColor: "#F6F4F0" }}>
             <HeaderNavbar></HeaderNavbar>
             <Home></Home>
         </div>

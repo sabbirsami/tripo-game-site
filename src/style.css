@@ -42,3 +42,8 @@ body {
     ) !important;
     transition: opacity 0.4s ease 0s;
 } */
+
+/* HERO ABOUT  */
+.hero-about h1 {
+    font-family: Suez One;
+}
