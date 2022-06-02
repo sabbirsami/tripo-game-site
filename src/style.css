@@ -2,3 +2,8 @@ body {
     font-family: "Poppins", sans-serif;
     /* font-family: "Suez One", serif; */
 }
+
+/* CUSTOM CSS CLASS  */
+.rounded-bottom-4 {
+    border-radius: 0 0 15px 15px;
+}

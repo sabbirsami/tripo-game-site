@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import HeaderNavbar from "./Components/Shared/HeaderNavbar";
+import HeaderNavbar from "./Shared/HeaderNavbar";
+
 import "./style.css";
 
 function App() {
