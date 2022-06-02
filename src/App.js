@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import Home from "./Components/Home/Home";
 import HeaderNavbar from "./Shared/HeaderNavbar";
 
 import "./style.css";
@@ -7,6 +8,7 @@ function App() {
     return (
         <div>
             <HeaderNavbar></HeaderNavbar>
+            <Home></Home>
         </div>
     );
 }

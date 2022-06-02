@@ -7,3 +7,18 @@ body {
 .rounded-bottom-4 {
     border-radius: 0 0 15px 15px;
 }
+
+/* HERO SECTION  */
+.hero-bg {
+    min-height: 800px;
+    margin-top: -64px;
+    background-image: url("./Images/heroBg.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+}
+.hero-content .hero-text h1 {
+    font-family: Suez One;
+    font-size: 80px;
+}
