@@ -11,10 +11,10 @@ const Hero = () => {
                         <div className="hero-content">
                             <div className="py-5">
                                 <div className="hero-text">
-                                    <h1>Made to Be Played</h1>
-                                    <h2 className="fw-light">
+                                    <h3 className="fw-light">
                                         The Very Best in Mobile Gaming
-                                    </h2>
+                                    </h3>
+                                    <h1>Made to Be Played</h1>
                                 </div>
                                 <div className="store py-3">
                                     <img src={appStore} alt="" />
