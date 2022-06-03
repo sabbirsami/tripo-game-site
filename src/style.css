@@ -62,7 +62,13 @@ body {
 /* OUR TEAM  */
 .our-team-section {
     background-image: url("./Images/contactBg.webp");
-    background-position: fixed;
+    background-position: static;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.get-in-touch-bg {
+    background-image: url("./Images/contactBg2.webp");
+    background-position: static;
     background-repeat: no-repeat;
     background-size: cover;
 }

@@ -3,6 +3,7 @@ import GameCard from "./GameCard";
 import Hero from "./Hero";
 import HeroAbout from "./HeroAbout";
 import HeroOurGame from "./HeroOurGame";
+import HomeGetInTouch from "./HomeGetInTouch";
 import OurTeam from "./OurTeam";
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
             <HeroAbout></HeroAbout>
             <HeroOurGame></HeroOurGame>
             <OurTeam></OurTeam>
+            <HomeGetInTouch></HomeGetInTouch>
         </div>
     );
 };
