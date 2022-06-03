@@ -3,9 +3,9 @@ import { Button, Form } from "react-bootstrap";
 
 const HomeGetInTouch = () => {
     return (
-        <section className="get-in-touch-bg">
-            <div className="container">
-                <div className="row">
+        <section className="get-in-touch-bg py-5">
+            <div className="container py-5">
+                <div className="row justify-content-between">
                     <div className="col-lg-4">
                         <div className="get-in-touch-form bg-light p-2 rounded-4">
                             <div className="p-4">
@@ -76,7 +76,7 @@ const HomeGetInTouch = () => {
                                         controlId="exampleForm.ControlTextarea1"
                                     >
                                         <Form.Label>
-                                            Example textarea
+                                            Leave us a message...
                                         </Form.Label>
                                         <Form.Control
                                             className="rounded-4"
@@ -95,7 +95,43 @@ const HomeGetInTouch = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4"></div>
+                    <div className="col-lg-4 align-self-end">
+                        <div className="join-form bg-danger rounded-4 text-light mt-lg-0 mt-3">
+                            <div className="p-4">
+                                <div className="p-2">
+                                    <h5 className="fw-bold pb-2">
+                                        Subscribe to Our Newsletter
+                                    </h5>
+                                    <Form>
+                                        <div className="row justify-content-center align-items-center">
+                                            <Form.Label>Email</Form.Label>
+                                            <div className="col-lg-9">
+                                                <Form.Group
+                                                    className="mb-3"
+                                                    controlId="formBasicEmail"
+                                                >
+                                                    <Form.Control
+                                                        className="rounded-3 py-3 px-4 "
+                                                        type="email"
+                                                    />
+                                                </Form.Group>
+                                            </div>
+
+                                            <div className="col-lg-3">
+                                                <Button
+                                                    variant="warning"
+                                                    className="w-100 rounded-3 mx-0 mb-3 py-3 px-4 text-center "
+                                                    type="submit"
+                                                >
+                                                    Join
+                                                </Button>
+                                            </div>
+                                        </div>
+                                    </Form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
