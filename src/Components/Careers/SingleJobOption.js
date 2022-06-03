@@ -3,7 +3,7 @@ import React from "react";
 const SingleJobOption = ({ profile }) => {
     console.log(profile);
     return (
-        <div className="col-lg-3">
+        <div className="col-lg-3 pt-3">
             <div className="image ">
                 <img className="w-100 rounded-4" src={profile.img} alt="" />
             </div>

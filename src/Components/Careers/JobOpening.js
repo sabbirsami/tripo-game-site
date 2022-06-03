@@ -35,8 +35,8 @@ const JobOpening = () => {
     console.log(profiles);
     return (
         <div className="mt-3">
-            <div className="container bg-danger p-5">
-                <div className="pb-5 pt-3 text-center text-white">
+            <div className="container bg-red p-5">
+                <div className="pb-4 pt-3 text-center text-white">
                     <h1 className="fontStyle">Job Openings</h1>
                 </div>
                 <div className="p-3">
