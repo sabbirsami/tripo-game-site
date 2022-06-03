@@ -7,7 +7,7 @@ const HomeGetInTouch = () => {
             <div className="container py-5">
                 <div className="row justify-content-between">
                     <div className="col-lg-4">
-                        <div className="get-in-touch-form bg-light p-2 rounded-4">
+                        <div className="get-in-touch-form bg-white p-2 rounded-4 shadow">
                             <div className="p-4">
                                 <div>
                                     <h2 className="fw-bold">Get in Touch</h2>
