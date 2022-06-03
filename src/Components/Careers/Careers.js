@@ -1,9 +1,10 @@
 import React from "react";
+import Hiring from "./Hiring";
 
 const Careers = () => {
     return (
         <div>
-            <h1>aa</h1>
+            <Hiring></Hiring>
         </div>
     );
 };
