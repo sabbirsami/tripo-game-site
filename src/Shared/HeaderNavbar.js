@@ -7,9 +7,9 @@ const HeaderNavbar = () => {
         <div>
             <Navbar bg="" expand="lg" className="p-0">
                 <Container>
-                    <h4 className="rounded-bottom-4 m-0 bg-danger text-light p-3">
+                    <h5 className="rounded-bottom-4 m-0 bg-danger text-light p-3">
                         Tripo Games
-                    </h4>
+                    </h5>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto bg-light shadow rounded-bottom-4">

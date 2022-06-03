@@ -10,7 +10,7 @@ const CustomLink = ({ children, to, ...props }) => {
                 style={{
                     fontSize: "16px",
                     fontFamily: "rubik",
-                    padding: " 17px 30px",
+                    padding: " 16px 30px",
                     fontWeight: "400",
                     textDecoration: "none",
                     color: match ? "white" : "black",
