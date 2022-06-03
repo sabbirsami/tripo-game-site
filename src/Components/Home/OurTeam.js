@@ -3,7 +3,7 @@ import ourTeamBottom from "../../Images/ourTeamBottom.webp";
 
 const OurTeam = () => {
     return (
-        <section className="our-team-section">
+        <section className="our-team-section mt-5">
             <div className="container position-relative ">
                 <div className="py-5">
                     <div className="py-lg-5">
