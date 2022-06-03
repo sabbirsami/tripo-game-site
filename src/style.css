@@ -25,7 +25,6 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: static;
 }
 .hero-content .hero-text h1 {
     font-family: Suez One;
@@ -36,17 +35,14 @@ body {
 .text {
     z-index: 2;
 }
-.game-card-img img {
-    content: "";
-    width: 100%;
-    background-size: cover;
-    background-image: linear-gradient(
-        180deg,
-        rgba(218, 57, 43, 0),
-        rgba(218, 57, 43, 0.8)
-    );
-    opacity: 1;
-}
+/* .game-card-img img {
+    background: linear-gradient(
+            180deg,
+            rgba(218, 57, 43, 0),
+            rgba(218, 57, 43, 0.8)
+        ),
+        url("./Images/contactBg2.webp");
+} */
 /* .game-card-img {
     position: relative;
 }
@@ -65,15 +61,17 @@ body {
 /* OUR TEAM  */
 .our-team-section {
     background-image: url("./Images/contactBg.webp");
-    background-position: static;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
 .get-in-touch-bg {
     background-image: url("./Images/contactBg2.webp");
-    background-position: static;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
 }
 
 /* CV  */
@@ -85,10 +83,14 @@ body {
             rgba(0, 0, 0, 0.45)
         ),
         /* bottom, image */ url("./Images/contactBg2.webp");
-    background-position: fixed;
-    min-height: 380px;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
 }
-.cv-section::before {
+.we-tripo-bg img {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }

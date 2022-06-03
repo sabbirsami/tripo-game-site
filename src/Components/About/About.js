@@ -1,9 +1,10 @@
 import React from "react";
+import WeAreTripo from "./WeAreTripo";
 
 const About = () => {
     return (
         <div>
-            <h1>a</h1>
+            <WeAreTripo></WeAreTripo>
         </div>
     );
 };
