@@ -3,6 +3,7 @@ import GameCard from "./GameCard";
 import Hero from "./Hero";
 import HeroAbout from "./HeroAbout";
 import HeroOurGame from "./HeroOurGame";
+import OurTeam from "./OurTeam";
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <GameCard></GameCard>
             <HeroAbout></HeroAbout>
             <HeroOurGame></HeroOurGame>
+            <OurTeam></OurTeam>
         </div>
     );
 };

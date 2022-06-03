@@ -44,7 +44,7 @@ const GameCard = () => {
                                 className="w-100  rounded-4 "
                                 alt=""
                             />
-                            <div className="text  position-absolute bottom-0 text-light ps-4 start-0">
+                            <div className="text position-absolute bottom-0 text-light ps-4 start-0">
                                 <h5>Treasure Box</h5>
                                 <p>Adventure - Free</p>
                             </div>
