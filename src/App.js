@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Route, Routes } from "react-router-dom";
+import Careers from "./Components/Careers/Careers";
 import Home from "./Components/Home/Home";
 import Footer from "./Shared/Footer";
 import HeaderNavbar from "./Shared/HeaderNavbar";
@@ -12,6 +13,7 @@ function App() {
             <HeaderNavbar></HeaderNavbar>
             <Routes>
                 <Route path="/" element={<Home></Home>}></Route>
+                <Route path="/careers" element={<Careers></Careers>}></Route>
             </Routes>
             <Footer></Footer>
         </div>
