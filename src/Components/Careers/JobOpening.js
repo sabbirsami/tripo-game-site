@@ -40,13 +40,15 @@ const JobOpening = () => {
                     <h1 className="fontStyle">Job Openings</h1>
                 </div>
                 <div className="p-3">
-                    <div className="row">
-                        {profiles.map((profile) => (
-                            <SingleJobOption
-                                key={profile.id}
-                                profile={profile}
-                            ></SingleJobOption>
-                        ))}
+                    <div className="pb-lg-5">
+                        <div className="row">
+                            {profiles.map((profile) => (
+                                <SingleJobOption
+                                    key={profile.id}
+                                    profile={profile}
+                                ></SingleJobOption>
+                            ))}
+                        </div>
                     </div>
                 </div>
             </div>

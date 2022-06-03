@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Route, Routes } from "react-router-dom";
+import About from "./Components/About/About";
 import Careers from "./Components/Careers/Careers";
 import Home from "./Components/Home/Home";
 import Footer from "./Shared/Footer";
@@ -14,6 +15,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home></Home>}></Route>
                 <Route path="/careers" element={<Careers></Careers>}></Route>
+                <Route path="/about" element={<About></About>}></Route>
             </Routes>
             <Footer></Footer>
         </div>
