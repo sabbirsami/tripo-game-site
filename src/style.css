@@ -94,3 +94,6 @@ body {
     background-size: cover;
     background-position: center center;
 }
+.overflow-x-hidden {
+    overflow-x: hidden;
+}

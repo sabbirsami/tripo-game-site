@@ -3,7 +3,7 @@ import design from "../../Images/design.webp";
 
 const WeAreTripo = () => {
     return (
-        <div>
+        <div className="overflow-x-hidden">
             <div className="container">
                 <div className="py-5">
                     <div className="py-3">
@@ -18,7 +18,7 @@ const WeAreTripo = () => {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className=" ">
                 <div className="row  ">
                     <div className="col-lg-5 m-0">
                         <div className="we-tripo-bg">
@@ -26,7 +26,7 @@ const WeAreTripo = () => {
                         </div>
                     </div>
                     <div className="col-lg-7 d-flex align-items-center bg-red text-white">
-                        <div className="col-8 mx-auto">
+                        <div className="col-8 py-2 mx-auto">
                             <p className="fs-5">
                                 I'm a paragraph. Click here to add your own text
                                 and edit me. It’s easy. Just click “Edit Text”
