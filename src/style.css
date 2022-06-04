@@ -97,3 +97,15 @@ body {
 .overflow-x-hidden {
     overflow-x: hidden;
 }
+
+.what-we-are-section {
+    background: linear-gradient(
+            rgba(246, 244, 240, 0.9),
+            rgba(246, 244, 240, 0.9)
+        ),
+        /* bottom, image */ url("./Images/aboutBg.webp");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}

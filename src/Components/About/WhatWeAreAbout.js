@@ -10,8 +10,10 @@ const WhatWeAreAbout = () => {
                             What We Are About
                         </h1>
                         <div className=" py-3 col-lg-6">
-                            <div className="p-5 shadow rounded-4">
-                                <h2 className="text-danger">Accomplishment</h2>
+                            <div className="p-5 shadow rounded-4 bg-white">
+                                <h2 className="text-danger fw-bold pb-2">
+                                    Accomplishment
+                                </h2>
                                 <p>
                                     I'm a paragraph. Click here to add your own
                                     text and edit me. I’m a great place for you
@@ -21,8 +23,10 @@ const WhatWeAreAbout = () => {
                             </div>
                         </div>
                         <div className=" py-3 col-lg-6">
-                            <div className="p-5 shadow rounded-4">
-                                <h2 className="text-danger">Creativity</h2>
+                            <div className="p-5 shadow rounded-4 bg-white">
+                                <h2 className="text-danger fw-bold pb-2">
+                                    Creativity
+                                </h2>
                                 <p>
                                     I'm a paragraph. Click here to add your own
                                     text and edit me. I’m a great place for you
@@ -32,8 +36,10 @@ const WhatWeAreAbout = () => {
                             </div>
                         </div>
                         <div className="col-lg-12 py-3">
-                            <div className="p-5 rounded-4 shadow">
-                                <h2 className="text-danger">Community</h2>
+                            <div className="p-5 rounded-4 bg-white shadow">
+                                <h2 className="text-danger fw-bold pb-2">
+                                    Community
+                                </h2>
                                 <p>
                                     I'm a paragraph. Click here to add your own
                                     text and edit me. I’m a great place for you
